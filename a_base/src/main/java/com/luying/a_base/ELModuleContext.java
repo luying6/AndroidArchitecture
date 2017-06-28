@@ -16,15 +16,16 @@ public class ELModuleContext {
     public static final int TOP_VIEW_GROUP = 0;
     public static final int BOTTOM_VIEW_GROUP = 1;
     public static final int PLUGIN_CENTER_VIEW = 2;
+
     private Activity context;
     private Bundle saveInstance;
     private SparseArrayCompat<ViewGroup> viewGroups = new SparseArrayCompat<>();
 
-    public Activity getContext() {
+    public Activity getActivity() {
         return context;
     }
 
-    public void setContext(Activity context) {
+    public void setActivity(Activity context) {
         this.context = context;
     }
 
