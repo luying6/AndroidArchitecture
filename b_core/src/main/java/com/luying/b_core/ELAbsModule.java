@@ -1,4 +1,4 @@
-package com.luying.a_base;
+package com.luying.b_core;
 
 import android.os.Bundle;
 

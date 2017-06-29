@@ -1,4 +1,4 @@
-package com.luying.util;
+package com.luying.b_core.util;
 
 import java.util.Map;
 

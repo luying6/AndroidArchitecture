@@ -1,4 +1,4 @@
-package com.luying.a_base;
+package com.luying.b_core;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -43,5 +43,6 @@ public class ELModuleContext {
 
     public void setViewGroups(SparseArrayCompat<ViewGroup> viewGroups) {
         this.viewGroups = viewGroups;
+
     }
 }

@@ -3,15 +3,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
+
+    <!--分成三个功能模块-->
+
     <RelativeLayout
         android:id="@+id/page_name"
         android:layout_width="match_parent"
         android:layout_height="50dp"/>
+
+
     <RelativeLayout
         android:id="@+id/page_bodyT"
         android:layout_width="match_parent"
         android:layout_height="50dp"
        />
+
+
     <RelativeLayout
         android:id="@+id/page_bodyB"
         android:layout_width="match_parent"

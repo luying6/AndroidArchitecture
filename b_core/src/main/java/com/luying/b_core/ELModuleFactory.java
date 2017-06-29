@@ -1,4 +1,4 @@
-package com.luying.a_base;
+package com.luying.b_core;
 
 /**
  * 创建人：luying

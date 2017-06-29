@@ -1,4 +1,4 @@
-package com.luying.a_base;
+package com.luying.b_core;
 
 import android.os.Bundle;
 
@@ -10,8 +10,9 @@ import android.os.Bundle;
 
 public class ELBasicModule extends ELAbsModule{
     public ELModuleContext moduleContext;
+
     @Override
-    public void init(ELModuleContext moduleContext) {
+    public void init(ELModuleContext moduleContext, String extend) {
 
     }
 

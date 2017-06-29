@@ -2,7 +2,7 @@ package com.luying.androidarchitecture;
 
 import android.support.v4.util.ArrayMap;
 
-import com.luying.a_base.ModuleManagerActivity;
+import com.luying.b_core.ModuleManagerActivity;
 
 import java.util.ArrayList;
 
@@ -12,15 +12,17 @@ import java.util.ArrayList;
  * 类说明：
  */
 
-public class ModuleMainActivity extends ModuleManagerActivity{
+public class ModuleMainActivity extends ModuleManagerActivity {
 
     @Override
     public int getContentViewId() {
-        return 0;
+        return R.layout.activity_main_module;
     }
 
     @Override
     public ArrayMap<String, ArrayList<Integer>> moduleConfig() {
+        ArrayMap<String, ArrayList<Integer>> map = new ArrayMap<>();
+//        map.put()
         return null;
     }
 }
